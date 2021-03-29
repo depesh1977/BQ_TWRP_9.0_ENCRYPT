@@ -90,6 +90,10 @@ BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 TARGET_COPY_OUT_VENDOR := vendor
 TARGET_RECOVERY_FSTAB := device/BQ/k210/recovery/root/etc/twrp.fstab
 
+# System as root
+BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
+BOARD_SUPPRESS_SECURE_ERASE := true
+
 # TWRP specific build flags
 RECOVERY_SDCARD_ON_DATA := true
 TW_BRIGHTNESS_PATH := "/sys/devices/platform/sprd_backlight/backlight/sprd_backlight/brightness"
@@ -100,7 +104,6 @@ TW_THEME := portrait_hdpi
 TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
 TW_USE_TOOLBOX := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
-BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 TW_MAX_BRIGHTNESS := 125
 TW_DEFAULT_BRIGHTNESS := 90
 TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
