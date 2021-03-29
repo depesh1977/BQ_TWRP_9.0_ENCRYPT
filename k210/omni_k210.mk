@@ -25,6 +25,6 @@ PLATFORM_SECURITY_PATCH := 2019-12-05
 
 #PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 #	ro.adb.secure=0 \
-#    ro.secure=1 \
+#    ro.secure=0 \
 #    sys.usb.config=mtp 
 
