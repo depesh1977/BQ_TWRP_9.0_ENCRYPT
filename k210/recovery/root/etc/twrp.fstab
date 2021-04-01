@@ -37,7 +37,7 @@
 /vendor           ext4       /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/vendor                       flags=display="vendor"
 /vendor_image     emmc       /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/vendor                       flags=display="vendor_image";backup=1;flashimg=1
 /cache            ext4       /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/cache                        flags=display="cache"
-/data             f2fs       /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/userdata                     flags=encryptable=footer;length=-16384;fileencryption=ice:aes-256-cts
+/data             f2fs       /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/userdata                    flags=encryptable=footer;length=-16384
 /product          ext4       /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/product                      
 /prodnv           ext4       /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/prodnv
 /external_sd      auto       /dev/block/platform/soc/soc:ap-ahb/20300000.sdio/mmcblk1p1        /dev/block/mmcblk1  flags=display="External SDcard";storage;wipeingui;removable;backup=0
