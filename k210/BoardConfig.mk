@@ -135,10 +135,7 @@ TARGET_OTA_ASSERT_DEVICE := BQ,BQru-5519G,BQru,K210,K210AG,k210
 # CRYPTO
 TW_INCLUDE_CRYPTO_FBE := true
 TW_INCLUDE_CRYPTO := true
-#TW_CRYPTO_REAL_BLKDEV := "/dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/userdata"
-#TW_CRYPTO_MNT_POINT := "/data"
-#TW_CRYPTO_KEY_LOC := "footer"
-#TW_INCLUDE_L_CRYPTO := true
+TW_CRYPTO_USE_SBIN_VOLD := true
 
 # Platform version
 PLATFORM_VERSION := 16.1.0
