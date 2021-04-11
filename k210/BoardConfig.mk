@@ -139,6 +139,7 @@ TW_DEVICE_VERSION=$(shell date '+%Y%m%d') by depesh1977
 
 # CRYPTO WIP
 TW_INCLUDE_CRYPTO := true
+TW_INCLUDE_FBE := true
 TARGET_LEGACY_HW_DISK_ENCRYPTION := true
 TW_CRYPTO_FS_TYPE := "f2fs"
 TW_CRYPTO_REAL_BLKDEV := "/dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/userdata"
