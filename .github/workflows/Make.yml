@@ -10,11 +10,11 @@ on:
       LIBRARY_URL:
         description: 'LIBRARY_URL'
         required: true
-        default: 'https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git'
+        default: 'git://github.com/SHRP/manifest.git -b v3_9.0'
       LIBRARY_BRANCH:
         description: 'LIBRARY_BRANCH'
         required: true
-        default: 'twrp-9.0'
+        default: 'v3_9.0'
       DEVICE_URL:
         description: 'DEVICE_URL'
         required: true
